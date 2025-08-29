@@ -2,6 +2,9 @@ package br.com.tecdev.authentication;
 
 public class Admin extends User {
 
+    Permissions permissions = new Permissions();
+    public String permission = permissions.ADMIN;
+
     UserManagerSystem userManager = new UserManagerSystem();
     // agora podemos fazer userManager.addUser() ou userManager.removeUser() etc...
 
