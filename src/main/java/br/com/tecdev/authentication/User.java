@@ -9,7 +9,7 @@ public class User {
     Permissions permissions = new Permissions();
     public String permission = permissions.USER;
 
-    //setter pra mudar a permissão
+    //setter pra mudar a permissão.
     public void setPermissions(String permissions){
         this.permission = permission;
     }
